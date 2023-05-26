@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 17, 17);
+    justify-content: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    align-items: center; /* Выравнивание содержимого по вертикали */
+    padding: 20px;
+}
+
+.logo {
+    position: relative;
+    top: -60px;
+    grid-column: 1;
+    transform: scale(0.3);
+    height: 100px;
+    align-self: center;
+}
+
+.nav {
+    grid-column: 2 / span 2;
+    text-align: center;
+}
+
+.button-container a {
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две равные колонки */
+    padding: 80px; /* Добавить общий отступ вокруг элементов */
+}
+
+.grid-item h4 {
+    font-size: 30px;
+    color: red;
+    font-family: 'Lato', sans-serif;
+}
+
+.grid-item h1 {
+    font-size: 50px;
+    color: #F9F9F9;
+    font-family: 'Lato', sans-serif;
+}
+
+.grid-item p {
+    font-size: 15px;
+    color: #F9F9F9;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.my-buttons {
+    padding: 10px 25px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+
+.my-buttons:hover {
+    background-color: rgb(94, 1, 1);
+}
+
+
+.grid-container-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Три равные колонки */
+    gap: 35px; /* Отступы между элементами внутри грида */
+    grid-template-columns: 350px 350px 350px;
+    margin-bottom: 100px;
+
+
+}
+
+.grid-item-second {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: #333333;
+    padding: 25px;
+}
+
+.second {
+    background-color: red;
+}
+
+.know-more-a {
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    padding-top: 25px;
+}
+
+.know-more-white { 
+    color: white;
+}
+
+.cube {
+    position: absolute;
+    top: 720px;
+    left: 0;
+    width: 800px;
+    height: 950px;
+    background-color: #181616;
+    transform: translateZ(-1000px);
+    z-index: -1;
+  }
+
+
+  .grid-item-main {
+    grid-column: 1 / span 1; 
+    grid-row: 1 / span 2;
+    height: 400px;
+    background-color: #f5f5f5;
+    background-color: #201b1b;
+    text-align: center;
+  }
+
+  .grid-item-main h1{
+    color: red;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .grid-item-main h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  
+  .grid-item-small {
+    background-color: #f5f5f5;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333333;
+  }
+
+  .grid-item-small h1{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+
+  }
+
+  .grid-item-small h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+  }
+
+  .grid-item-small-last{ 
+    grid-column: 1 / span 3;
+    padding: 20px;
+    background-color: #1f1e1e;
+
+  }
+
+.grid-item-small-last h1{ 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .grid-item-small-last h2{ 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+
+  .nav-new {
+    grid-column: 1 / span 3;
+    text-align: center;
+}
